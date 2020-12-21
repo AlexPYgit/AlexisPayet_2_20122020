@@ -1,0 +1,104 @@
+/*Body*/
+
+
+body{
+font-family: 'Raleway';
+}
+
+/*Header*/
+.SiteHeader-title-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SiteHeader-title {
+text-decoration: none;
+margin-top: 20px;
+color: #0065FC;
+}
+
+.SiteHeader-nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.SiteHeader-nav li{
+    margin-right: 50px;
+}
+
+.SiteHeader-nav a{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+.SiteHeader-h1{
+    font-size:1em;
+}
+
+#SiteHeader-slogan{
+    color:black;
+    font-size: 0.6em;
+}
+
+.Filter{
+    display: flex;
+    align-items: center;
+}
+
+.FilterChoice{
+    margin-left: 30px;
+}
+
+.InformationResult{
+    display: flex;
+    align-items: center;
+}
+
+.InformationResult-result{
+    margin-left: 10px;
+}
+
+#icon{
+    color: #0065FC;
+    height: 20px;
+    width: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+#placement-i{
+position: absolute;
+right: 9px;
+}
+
+
+
+/*Footer*/
+footer{background-color:  #F2F2F2;
+display: flex;
+align-content: flex-start;
+}
+
+.Footer-block ul{
+    list-style: none;
+}
+
+.Footer-block li{margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.Footer-block ul li a
+{text-decoration:none;
+color:black;
+}
+
+.Footer-block-title
+{color: black;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+
+
