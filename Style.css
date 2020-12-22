@@ -1,5 +1,9 @@
 /*Body*/
 
+html{
+    display: flex;
+    justify-content: center;
+}
 
 body{
 font-family: 'Raleway';
@@ -13,7 +17,7 @@ font-family: 'Raleway';
 
 .SiteHeader-title {
 text-decoration: none;
-margin-top: 20px;
+margin-top: 50px;
 color: #0065FC;
 }
 
@@ -24,11 +28,22 @@ color: #0065FC;
 }
 
 .SiteHeader-nav li{
-    margin-right: 50px;
+    margin-right: 40px;
+    padding-top: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.SiteHeader-nav li:hover{
+    border-top: 2px solid #0065FC;
 }
 
 .SiteHeader-nav a{
     text-decoration: none;
+}
+
+.SiteHeader-nav a:hover{
     color: #0065FC;
 }
 
@@ -41,13 +56,67 @@ color: #0065FC;
     font-size: 0.6em;
 }
 
+.SiteHeader-search-btn{
+    border-radius: 20px;
+    display: flex;
+}
+
+.SiteHeader-search-input{
+    border: 1px solid #F2F2F2;
+    font-weight:bold;
+    padding-left: 2%;
+}
+
+.SiteHeader-btn{
+    background-color: #0065FC;
+    color: white;
+    border-style: none;
+}
+
+/*élements de la barre de recherche*/
+.bar-search{
+    background-color: #F2F2F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SiteHeader-btn{
+    border-radius:0 10px  10px 0 ;
+    padding:0 15px;
+}
+
+/*éléments de la partie filtres*/
 .Filter{
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .FilterChoice{
     margin-left: 30px;
+    border: 1px solid  #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.FilterChoice:hover{
+    transition: 0,2s;
+    background-color: #F2F2F2;
+}
+
+.elements-choice{
+    margin:0 15px;
 }
 
 .InformationResult{
@@ -59,26 +128,41 @@ color: #0065FC;
     margin-left: 10px;
 }
 
-#icon{
-    color: #0065FC;
-    height: 20px;
-    width: 20px;
-    border: 1px solid;
-    border-radius: 50%;
-    position: relative;
+/*Mise en forme des icon*/
+.circle-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    color:#0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0,2s;
 }
 
-#placement-i{
-position: absolute;
-right: 9px;
+#icon{
+    color: #0065FC;
+}
+
+.icon-info{
+    height: 25px;
+    width: 25px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 /*Footer*/
-footer{background-color:  #F2F2F2;
-display: flex;
-align-content: flex-start;
+footer{
+    background-color:  #F2F2F2;
+ display: flex;
+ justify-content:space-between;
 }
 
 .Footer-block ul{
@@ -98,6 +182,10 @@ color:black;
 {color: black;
 margin-top: 15px;
 margin-bottom: 15px;
+}
+
+.Footer-block-hide{
+    width: 150px;
 }
 
 
