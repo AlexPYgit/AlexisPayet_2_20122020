@@ -3,6 +3,7 @@
 html{
     display: flex;
     justify-content: center;
+    widows: 900px;
 }
 
 body{
@@ -167,13 +168,28 @@ color: #0065FC;
     display: flex;
 }
 
-.main_container{
-
+.box_vignette{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    
 }
 
-.background_part{
-    width: 90%;
-    height: 400px;
+.section_vingette{
+    width: 680px;
+    height: 620px;
+}
+
+.vignette{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.background_part{ 
     background-color: #F2F2F2;
     border-radius: 10px;
     font-weight: bold;
@@ -188,9 +204,12 @@ color: #0065FC;
 
 .aside_style{
     border:1px solid black;
+    width: 320px;
+    height: 620px;
 }
 
-
+#link_box_vignette{
+}
 
 /*Footer*/
 footer{
