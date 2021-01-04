@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Style.css" type="text/css"> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 <!--Element of haeder-->
@@ -15,9 +16,9 @@
                <a class="SiteHeader-title" href="#"><img src="https://raw.githubusercontent.com/AlexPYgit/AlexisPayet_2_20122020/master/images/logo/Reservia.svg" alt="icon du site"></a>
                    <div class="SiteHeader-nav">
                       <ul>
-                           <li class="SiteHeader-nav"><a href="#">Hébergment</a> </li>
-                           <li class="SiteHeader-nav"><a href="#">Activité</a> </li>
-                           <li class="SiteHeader-nav"><a href="#">S'inscrire</a> </li>
+                           <li class="SiteHeader-nav"><a href="#">Hébergments</a> </li>
+                           <li class="SiteHeader-nav"><a href="#">Activités</a> </li>
+                           <li class="SiteHeader-nav"><a id="link_register" href="#">S'inscrire</a> </li>
                      </ul>
                   </div>
              </div>
@@ -31,7 +32,7 @@
                 <p>Filtres</p>
             </div>
                  <div class="FilterChoice"> <div class="circle-icon"><i class="fas fa-money-bill-wave"></i> </div> <div class="elements-choice">Economique</div></div>
-                 <div class="FilterChoice"><div class="circle-icon"> <i class="fas fa-child"></i></div><div class="elements-choice"> Familial</div></div>
+                 <div class="FilterChoice"><div class="circle-icon"> <i class="fas fa-child "></i></div><div class="elements-choice"> Familial</div></div>
                  <div class="FilterChoice"><div class="circle-icon"> <i class="fas fa-heart"></i> </div><div class="elements-choice"> Romantique</div></div> 
                  <div class="FilterChoice"> <div class="circle-icon"> <i class="fas fa-dog"></i> </div><div class="elements-choice"> Animaux autorisés </div></div>
              
@@ -43,29 +44,106 @@
     </header>
     <!--body site -->
     <section class="display_main_container">
+        <!--vignette hebergments-->
     <section class="section_vingette background_part">
         <p class="title_part">Hébegements à Marseille</p>
         <div class="box_vignette">
-            <div class="vignette"></div>
-            <div class="vignette"></div>
-            <div class="vignette"></div>
+            <div class="vignette_hebergement vignette" id="img_vignette_img1" >
+                <div class="text_vignette_hebergement">
+                    <h4 class="vignette_title">Hôtel de la mer</h4>
+                    <p class="vignette_title">Nuit à partir de <strong>46€</strong> </p>
+                    <ul class="list_etoile_hebergement">
+                        <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        <li class="etoile_vignette_grey"><i class="fas fa-star "></i></li>
+                        <li class="etoile_vignette_grey"><i class="fas fa-star "></i></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="vignette_hebergement vignette" id="img_vignette_img2" >
+                <div class="text_vignette_hebergement">
+                    <h4 class="vignette_title">Hôtel du port</h4>
+                    <p class="vignette_title">Nuit à partir de <strong>52€</strong></p>
+                        <ul class="list_etoile_hebergement">
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        </ul> 
+                </div>
+            </div>
+            <div class="vignette_hebergement vignette" id="img_vignette_img2" >
+                <div class="text_vignette_hebergement">
+                    <h4 class="vignette_title">Hôtel du port</h4>
+                    <p class="vignette_title">Nuit à partir de <strong>52€</strong></p>
+                        <ul class="list_etoile_hebergement">
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        </ul> 
+                </div>
+            </div>
             <div class="vignette"></div>
             <div class="vignette"></div>
             <div class="vignette"></div>
         </div>
         <a href="#" id="link_box_vignette">Afficher plus</a>
     </section>
+    <!--insertion des vignettes dans l'Aside-->
     <aside class="background_part  aside_style">
-         <p class="title_part">Les plus populaires</p>
+         <div class="title_aside" ><p class="title_part">Les plus populaires</p> <i class="fas fa-chart-line"></i></div>
          <ul>
-             <li><div></div></li>
-             <li><div></div></li>
-             <li><div></div></li>
+             <li class="vignette_aside_populaire"><div class="vignette_populaire vignette" id="img_vignette_img8" >
+                <div class="text_vignette_populaire">
+                    <h4 class="vignette_title">Au coeur de l'eau Chambre d'hôtes</h4>
+                    <p class="vignette_text">Nuit à partir de 71<strong>€</strong></p>
+                        <ul class="list_etoile_populaire">
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_grey"><i class="fas fa-star "></i></li>
+                        </ul> 
+                     
+                  </div>
+            </li>
+             <li class="vignette_aside_populaire"><div class="vignette_populaire vignette" id="img_vignette_img8" >
+                <div class="text_vignette_populaire">
+                    <h4 class="vignette_title">Au coeur de l'eau Chambre d'hôtes</h4>
+                    <p class="vignette_text">Nuit à partir de 71<strong>€</strong></p>
+                        <ul class="list_etoile_populaire">
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_grey"><i class="fas fa-star "></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+             <li class="vignette_aside_populaire"><div class="vignette_populaire vignette" id="img_vignette_img7" >
+                <div class="text_vignette_populaire">
+                    <h4 class="vignette_title">Hôtel le solei du matin</h4>
+                    <p class="vignette_text">Nuit à partir de  128<strong>€</strong></p>
+                        <ul class="list_etoile_populaire">
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                            <li class="etoile_vignette_bleu"><i class="fas fa-star "></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
          </ul>
      </aside>
     </section>
     <section class="block_activity" class="main_container">
-        <p class="title_part">Activités à Marsielle</p>
+        <p class="title_part">Activités à Marsielle </p> 
         <div>
             <div></div>
             <div>
