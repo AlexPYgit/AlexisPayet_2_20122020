@@ -10,6 +10,7 @@ body{
 .title_part{
     font-size:1em;
     font-weight: bold; 
+    margin-left: 20px;
 }
 
 /*Header*/
@@ -180,9 +181,7 @@ color: #0065FC;
 
 .display_main_container{
     display: flex;
-    justify-content: space-around;
-    width: 93%;
-    
+    justify-content: space-around;    
 }
 
 .box_vignette{
@@ -193,50 +192,99 @@ color: #0065FC;
 }
 
 .section_vingette{
-    width: 650px;
-    height: 450px;
+    width: 750px;
+    height: 540px;
+    margin-left: 50px;  
+    padding: 10px;  
 }
 
 /* Vignette*/
 .vignette{
     box-shadow: 0px 2px 7px -2px #7894A3;
 }
+
+.link_vignette{
+    color:black;
+    text-decoration: none;
+}
+
 .vignette_text{
+    padding-top: 0px;
+    margin:0 -10px 0 0;
+    font-weight: lighter;
+}
+
+.vignette_text_populaire{
     padding-top: 5px;
     margin:0 -10px 0 0;
     font-weight: lighter;
 }
 
 .vignette_title{
-    width: 150px;
-    margin:0 -10px 0 0;
+    width: 180px;
+    margin:5px -10px 0 0;
 }
 
 /*configuration vignette*/
 .vignette_hebergement {
-    width: 195px;
+    width: 220px;
     height: 180px;
     border-radius: 10px;
     border: 4px solid white;
     display: flex;
     align-items: flex-end;
+    margin: 10px;
 }
 
 /*image des différente vignette*/
 #img_vignette_img1{
-    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg?raw=true');
-    background-size: 255px;
-    background-position-y: 140%;
-    background-position-x: 0%;
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg?raw=true');
+    background-size: 100%;
+    background-position-y: -65%;
+    background-position-x: 30%;
+    background-repeat: no-repeat;
 }
 
 #img_vignette_img2{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg?raw=true');
-    background-size: 255px;
-    background-position-y: 0%;
+    background-size: 100%;
+    background-position-y: -60%;
     background-position-x: 0%;
     background-repeat: no-repeat;
 }
+
+#img_vignette_img3{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg?raw=true');
+    background-size: 100%;
+    background-position-y: -60%;
+    background-position-x: 20%;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img4{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg?raw=true');
+    background-size: 104%;
+    background-position-y: 165%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img5{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg?raw=true');
+    background-size: 104%;
+    background-position-y: -25%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img6{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg?raw=true');
+    background-size: 105%;
+    background-position-y: 75%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
 
 /*zone de text*/
 .text_vignette_hebergement{
@@ -267,62 +315,6 @@ color: #0065FC;
 .etoile_vignette_grey{
     color:#F2F2F2;
 }
-
-
-/* Vignette dans l'aside "populaire*/
-.vignette_aside_populaire{
-    list-style-type: none;
-    margin-left: -25px;
-}
-
-.vignette_populaire{
-    width: 335px;
-    height: 135px;
-    border-radius: 10px;
-    border: 4px solid white;
-    position: relative;
-}
-
-#img_vignette_img8{
-    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg?raw=true');
-    background-size: 170px;
-    background-position-y: 0%;
-    background-position-x: -30%;
-    background-repeat: no-repeat;
-}
-
-#img_vignette_img7{
-    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg?raw=true');
-    background-size: 190px;
-    background-position-y: 0%;
-    background-position-x: -30%;
-    background-repeat: no-repeat;
-}
-
-.text_vignette_populaire{
-    background-color: white;
-    width: 170px;
-    height: 110px;
-    border-radius: 0 0 5px 0px ;
-    display: flex;
-    flex-direction: column;
-    justify-self:flex-end;
-    padding-left: 10px;
-    position: absolute;
-    right: 0px;
-}
-
-.list_etoile_populaire{
-    height: 20px;
-    width:90px;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    padding: 0px;
-    margin-top: 25px;
-}
-
-
 
 /*Vignette des activités*/
 
@@ -405,14 +397,16 @@ color: #0065FC;
 #link_box_vignette{
     text-decoration: none;
     color: black;
-    margin: 20px;
+    position: relative;
+    margin: 15px;
+    top: 20px;
 }
 
-/*Aside*/
+/*Aside et vignette populaire*/
 
 .aside_style{
-    width: 324px;
-    height: 450px;
+    width: 330px;
+    height: 560px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -420,6 +414,69 @@ color: #0065FC;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Vignette dans l'aside "populaire*/
+.vignette_aside_populaire{
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+.vignette_populaire{
+    width: 310px;
+    height: 130px;
+    border-radius: 10px;
+    border: 4px solid white;
+    position: relative;
+    margin: 10px 0 20px 0;
+}
+
+#img_vignette_img7{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg?raw=true');
+    background-size: 65%;
+    background-position-y: -5px;
+    background-position-x: -40px;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img8{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg?raw=true');
+    background-size: 58%;
+    background-position-y: 0px;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img9{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg?raw=true');
+    background-size: 43%;
+    background-position-y: -35px;
+    background-position-x: -8px;
+    background-repeat: no-repeat;
+}
+
+.text_vignette_populaire{
+    background-color: white;
+    width: 180px;
+    height: 130px;
+    border-radius: 0 0 5px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-self:flex-end;
+    padding-left: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.list_etoile_populaire{
+    height: 20px;
+    width:90px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 25px;
 }
 
 /*Footer*/
