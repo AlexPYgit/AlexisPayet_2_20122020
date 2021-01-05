@@ -427,6 +427,13 @@ color: #0065FC;
     margin-left: 20px;
 }
 
+.vignette_activity_right{
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
 .vignette_activity_small{
     height: 150px;
     border-radius: 10px;
@@ -450,7 +457,7 @@ color: #0065FC;
 }
 
 .vignette_activity_medium{
-    height: 200px;
+    height: 210px;
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
@@ -465,7 +472,7 @@ color: #0065FC;
 #img_vignette_img14{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg?raw=true');
     background-size: 110%;
-    background-position-y: 18px;
+    background-position-y: -3px;
     background-position-x: center;
     background-repeat: no-repeat; 
 }
