@@ -402,72 +402,100 @@ color: #0065FC;
 /* Séction des Activités*/
 
 .main_container_activity{
-    border: 1px solid  black;
     display: flex;
+    justify-content: space-between;
     height: auto;
     width: auto;
     margin:0 40px 40px 30px;
 }
 
 .block_activity{
-    border:1px solid black;
     display: flex;
 }
 
 /*Vignette des activités*/
+.vignette_activity{
+    display: flex;
+    justify-content: space-around;
+    width: 270px;
+}
+
+.block_activity_double{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
 
 .vignette_activity_small{
-    width: 300px;
     height: 150px;
     border-radius: 10px;
-    border: 4px solid white;
     display: flex;
     align-items: flex-end;
 }
-#img_vignette_img10{
-    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg?raw=true');
-    background-size: 300pX;
-    background-position-y: 0%;
-    background-position-x: -30%;
+#img_vignette_img12{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg?raw=true');
+    background-size: 100%;
+    background-position-y: -9px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img15{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg?raw=true');
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
     background-repeat: no-repeat;
 }
 
 .vignette_activity_medium{
-    width: 300px;
     height: 200px;
     border-radius: 10px;
-    border: 4px solid white;
     display: flex;
     align-items: flex-end;
 }
 #img_vignette_img11{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg?raw=true');
-    background-size: 300pX;
-    background-position-y: 60%;
-    background-position-x: 0%;
+    background-size: 100%;
+    background-position-y: -109px;
+    background-position-x: center;
+    background-repeat: no-repeat; 
+}
+#img_vignette_img14{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg?raw=true');
+    background-size: 110%;
+    background-position-y: 18px;
+    background-position-x: center;
     background-repeat: no-repeat; 
 }
 
 .vignette_activity_big{
-    width: 300px;
-    height: 500px;
+    height: 380px;
     border-radius: 10px;
-    border: 4px solid white;
     display: flex;
     align-items: flex-end;
 }
-#img_vignette_img12{
+#img_vignette_img10{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg?raw=true');
-    background-size: 800pX;
-    background-position-y: 0%;
-    background-position-x: 30%;
+    background-size: 220%;
+    background-position-y: -15px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+#img_vignette_img13{
+    background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg?raw=true');
+    background-size: 220%;
+    background-position-y: -15px;
+    background-position-x: center;
     background-repeat: no-repeat;
 }
 
 .text_vignette_activity{
     background-color: white;
     width: 2000px;
-    height: 50px;
+    height: 45px;
     border-radius: 0 0 5px 5px ;
     display: flex;
     align-content:flex-end ;
