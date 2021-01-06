@@ -8,13 +8,14 @@ body{
 .title_part{
     font-size:1em;
     font-weight: bold; 
-    margin-left: 30px;
+    margin-left: 10%;
 }
 
 /*Header*/
 
 .SiteHeader{
-    margin-left: 32px;
+    width: 80%;
+    margin: 0 10% 0 10%;
 }
 
 .SiteHeader-title-nav{
@@ -31,13 +32,11 @@ color: #0065FC;
 .SiteHeader-nav ul{
     list-style: none;
     display: flex;
-    margin-right: 20px;
 }
 
 .SiteHeader-nav li{
-    margin-right: 40px;
+    margin-left: 50px;
     padding-top: 50px;
-    width: 140px;
     display: flex;
     justify-content: center;
 }
@@ -178,15 +177,17 @@ color: #0065FC;
 /*section*/
 
 .display_main_container{
+    width: 80%;
+    margin: 0 10% 0 10%;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;  
 }
 
 .box_vignette{
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;     
 }
 
 .section_vingette{
@@ -318,8 +319,8 @@ color: #0065FC;
     text-decoration: none;
     color: black;
     position: relative;
-    margin: 15px;
-    top: 20px;
+    top: 30px;
+    margin-left: 15px;
 }
 
 /*Aside et vignette populaire*/
@@ -402,11 +403,12 @@ color: #0065FC;
 /* Séction des Activités*/
 
 .main_container_activity{
+    width: 80%;
+    margin: 0 10% 3% 10%;
     display: flex;
     justify-content: space-between;
     height: auto;
-    width: auto;
-    margin:0 40px 40px 30px;
+    
 }
 
 .block_activity{
@@ -425,6 +427,13 @@ color: #0065FC;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20px;
+}
+
+.vignette_activity_right{
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .vignette_activity_small{
@@ -450,7 +459,7 @@ color: #0065FC;
 }
 
 .vignette_activity_medium{
-    height: 200px;
+    height: 210px;
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
@@ -465,7 +474,7 @@ color: #0065FC;
 #img_vignette_img14{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg?raw=true');
     background-size: 110%;
-    background-position-y: 18px;
+    background-position-y: -3px;
     background-position-x: center;
     background-repeat: no-repeat; 
 }
