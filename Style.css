@@ -8,14 +8,14 @@ body{
 .title_part{
     font-size:1em;
     font-weight: bold; 
-    margin-left: 10%;
+    margin-left: 2%;
 }
 
 /*Header*/
 
 .SiteHeader{
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 94%;
+    margin: 0 2% 0 2%;
 }
 
 .SiteHeader-title-nav{
@@ -177,8 +177,8 @@ color: #0065FC;
 /*section*/
 
 .display_main_container{
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 94%;
+    margin: 0 2% 0 2%;
     display: flex;
     justify-content: space-between;  
 }
@@ -403,8 +403,8 @@ color: #0065FC;
 /* Séction des Activités*/
 
 .main_container_activity{
-    width: 80%;
-    margin: 0 10% 3% 10%;
+    width: 94%;
+    margin: 0 2% 3% 2%;
     display: flex;
     justify-content: space-between;
     height: auto;
