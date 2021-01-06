@@ -1,0 +1,17 @@
+/*Règle d'affichage entre écran de 17" et 14" */
+
+@media screen and (max-width: 1920px){
+    /*pour les écran de 17"*/
+        .SiteHeader{
+            width: 80%;
+            margin: 0 10% 0 10%;
+        }
+    }
+
+    @media screen and (max-width:1024px){
+        /*pour les écran en 14"*/
+            .SiteHeader{
+                width: 94%;
+                margin: 0 2% 0 2%;
+            }
+        }
