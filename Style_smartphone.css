@@ -1,2 +1,77 @@
 /*Style responsive pour les smartphone */
 
+@media screen and (max-width : 380px){
+
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .background_part{
+        background-color: white;
+    }
+
+    /*Header*/
+
+    .SiteHeader{
+        border: 1px solid rgb(95, 23, 23);
+        display: block;
+    }
+
+    .SiteHeader-title-nav{
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+/*Section vignette*/
+    .display_main_container{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: none;
+    }
+
+    .box_vignette{
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+        width: 100%;
+        height: auto;
+    }
+
+/* Aside*/
+    .aside_style{
+        background-color: #F2F2F2;
+    }
+
+/*Activity*/
+
+    .main_container_activity{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block_activity{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .vignette_activity_big{
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .vignette_activity_medium{
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .vignette_activity_small{
+        
+    }
+
+}
