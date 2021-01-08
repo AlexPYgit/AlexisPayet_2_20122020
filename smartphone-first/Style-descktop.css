@@ -1,11 +1,11 @@
 /*Style Descktop*/
 
-
 @media screen and (min-width : 1000px){
-    
+    /*Header*/
     .en-tête{
         display:flex;
         flex-wrap: nowrap;
+        align-items: baseline;
     }
     .SiteHeader-title{
         display: flex;
@@ -16,8 +16,18 @@
     .menu{
         display: flex;
         width: 10%;
-        border: 1px solid red;
         order: -1;
+        border-bottom: none;
+        padding-top: 20px;
+
+    }
+    .menu:hover{
+        text-decoration-color:  #0065FC;
+        border-top: 2px solid #0065FC;
+        border-bottom: none;
+    }
+    .menu a:hover{
+        color: #0065FC;
     }
     #link-register{
         display: flex;
@@ -25,15 +35,40 @@
         width: 10%;
         order: 2;
     }
-   
+
+    .SiteHeader-h1{
+        font-size:1.05em;
+        font-weight: bold;
+    }
+    #SiteHeader-slogan{
+        color:black;
+        font-size: 0.85em;
+    }
    
     .Filter{
         display: flex;
+        align-items: center;
     }
 
     .Filter_block{
         display: flex;
-        width: 200px;;
-        border: 1px solid black;
+        flex-flow: row;
+        height: auto;
     }
+    .FilterChoice{
+        order: 1;
+    }
+
+    /*Footer*/
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Footer-block-hide{
+        visibility: hidden;
+    }
+
 }
