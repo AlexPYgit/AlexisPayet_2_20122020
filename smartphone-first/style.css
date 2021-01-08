@@ -53,11 +53,12 @@ body{
 }
 
 .SiteHeader-h1{
-    font-size:1em;
+    font-size:1.4em;
+    font-weight: bold;
 }
 #SiteHeader-slogan{
     color:black;
-    font-size: 0.6em;
+    font-size: 1em;
 }
 
 /*Parti recherche*/
@@ -103,18 +104,18 @@ body{
 .Filter{
     font-weight: bold;
     margin-top: 10px;
-    
 }
 
 .Filter_block{
     display: flex;
     flex-flow:column wrap;
-    height: 150px;
+    height: 200px;
 }
 
 .FilterChoice{
     border: 1px solid  #F2F2F2;
     border-radius: 30px;
+    margin: 10px 0 0 10px;
     display: flex;
     width: max-content;
 }
