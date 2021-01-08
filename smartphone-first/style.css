@@ -1,0 +1,163 @@
+/*Style pour Smartphone*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    font-family: 'Raleway';
+    
+}
+
+.header{
+    display: flex;
+}
+
+.en-tête{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sous-en-tête{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover{
+    text-decoration-color:  #0065FC;
+    border-bottom: 2px solid #0065FC;
+}
+.menu a:hover{
+    color: #0065FC;
+}
+
+
+
+#link_register{
+    color: #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.SiteHeader-h1{
+    font-size:1em;
+}
+#SiteHeader-slogan{
+    color:black;
+    font-size: 0.6em;
+}
+
+/*Parti recherche*/
+.SiteHeader-search-btn{
+    border-radius: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.SiteHeader-search-input{
+    border: 1px solid #F2F2F2;
+    font-weight:bold;
+    padding-left: 2%;
+}
+
+.SiteHeader-btn{
+    background-color: #0065FC;
+    color: white;
+    border-style: none;
+}
+.bar-search{
+    background-color: #F2F2F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SiteHeader-btn{
+    border-radius:0 10px  10px 0 ;
+    padding:0 15px;
+}
+
+/*éléments de la partie filtres*/
+.Filter{
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.Filter_block{
+    display: flex;
+    flex-flow:column wrap;
+    height: 150px;
+}
+
+.FilterChoice{
+    border: 1px solid  #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+    flex-grow: ;
+    flex-wrap: ;
+    width: max-content;
+}
+
+.FilterChoice:hover {
+    transition: 0,2s;
+    background-color: #F2F2F2;
+}
+
+.circle-icon:hover{
+    color: black;
+}
+
+.elements-choice{
+    margin: 10px;
+}
+
+.InformationResult{
+    display: flex;
+    align-items: baseline;
+}
+
+/*Mise en forme des icon*/
+.circle-icon{
+    height: 40px;
+    width: 40px;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    color:#0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0,2s;
+}
+
+.icon-info{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

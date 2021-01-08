@@ -1,5 +1,9 @@
 /*Body*/
 
+html{
+    width: view;
+}
+
 body{
     font-family: 'Raleway';
     height: auto;
@@ -12,8 +16,9 @@ body{
 
 /*Header*/
 
+
 .SiteHeader-title-nav{
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
@@ -432,6 +437,7 @@ color: #0065FC;
     display: flex;
     align-items: flex-end;
 }
+
 #img_vignette_img12{
     background-image: url('https://github.com/AlexPYgit/AlexisPayet_2_20122020/blob/master/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg?raw=true');
     background-size: 100%;
