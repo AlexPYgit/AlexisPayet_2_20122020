@@ -1,7 +1,5 @@
 /*Style pour Smartphone*/
 
-
-
 body{
     display: flex;
     flex-direction: column;
@@ -14,22 +12,23 @@ body{
     display: flex;
 }
 
-.en-tête{
-    display: flex;
-    justify-content: space-between;
+.SiteHeader-title{
+    width: 80%;
+    border: 1px solid black;
 }
 
-.sous-en-tête{
+.en-tête{
     display: flex;
-    justify-content: space-around;
-
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu{
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #F2F2F2;
-    width: 100%;
+    width: 50%;
 }
 .menu a{
     text-decoration: none;
@@ -44,9 +43,7 @@ body{
     color: #0065FC;
 }
 
-
-
-#link_register{
+#link_register{   
     color: #0065FC;
     font-weight: bold;
     text-decoration: none;

@@ -1,8 +1,32 @@
 /*Style Descktop*/
 
 
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1000px){
     
+    .en-tête{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .SiteHeader-title{
+        display: flex;
+        width: 50%;
+        order: -1;
+    }
+
+    .menu{
+        display: flex;
+        width: 10%;
+        border: 1px solid red;
+        order: -1;
+    }
+    #link-register{
+        display: flex;
+        align-items: baseline;
+        width: 10%;
+        order: 2;
+    }
+   
+   
     .Filter{
         display: flex;
     }
