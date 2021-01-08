@@ -1,5 +1,7 @@
 /*Style pour Smartphone*/
 
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -114,8 +116,6 @@ body{
     border: 1px solid  #F2F2F2;
     border-radius: 30px;
     display: flex;
-    flex-grow: ;
-    flex-wrap: ;
     width: max-content;
 }
 

@@ -1,0 +1,14 @@
+/*Style Descktop*/
+
+
+@media screen and (min-width : 1200px){
+    .Filter{
+        display: flex;
+    }
+
+    .Filter_block{
+        display: flex;
+        width: 200px;;
+        border: 1px solid black;
+    }
+}
