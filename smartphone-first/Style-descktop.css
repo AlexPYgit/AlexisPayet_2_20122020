@@ -49,6 +49,15 @@
     #ico_btn_search{
         display: none;
     }
+    #text_btn_search{
+        display: flex;
+    }
+
+    /*ASIDE*/
+    .aside{
+        border-radius: 10px;
+        width: 30%;
+    }
 
     /*Filter */
     .Filter{
