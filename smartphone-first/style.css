@@ -95,6 +95,10 @@ body{
     padding:0 15px;
 }
 
+#text_btn_search{
+    display: none;
+}
+
 /*éléments de la partie filtres*/
 .Filter{
     font-weight: bold;
