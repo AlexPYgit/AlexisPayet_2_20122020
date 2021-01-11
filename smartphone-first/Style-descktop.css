@@ -55,8 +55,9 @@
 
     /*ASIDE*/
     .aside{
+        padding: 2%;
         border-radius: 10px;
-        width: 30%;
+        width: 25%;
     }
 
     /*Filter */
