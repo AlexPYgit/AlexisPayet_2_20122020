@@ -3,7 +3,7 @@
 @media screen and (min-width : 1000px){
     
     body{
-        padding:4%;
+        padding:2%;
     }
 
     /*Header*/
@@ -82,15 +82,16 @@
 
      /*ASIDE*/
      .aside{
-        padding: 2%;
+        padding: 0 2%;
         border-radius: 20px;
         width: 25%;
         order: 2;
     }
 
-    .cards_populaires{
+    .aside h2{
+        margin-bottom: 0%;
     }
-    
+
     .text_populaires h3{
         display: flex;
         flex-wrap: wrap;
@@ -112,17 +113,29 @@
     
 /* Section hebergements*/
     .section{
+        display: flex;
+        flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 20px;
-        width: 55%;
-        margin-top: 0%;
+        width: 65%;
+        padding:0 1%;
+
     }
 
+    .box_cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
 
-
+    .cards_hebergements{
+        width: 30%;
+        margin: 1%;
+        height: 13em;
+    }
 
     /*Footer*/
-
     .footer{
         display: flex;
         flex-direction: row;
@@ -133,4 +146,3 @@
         visibility: hidden;
     }
 
-}

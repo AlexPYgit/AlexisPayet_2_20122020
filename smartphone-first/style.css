@@ -18,6 +18,12 @@ body{
     padding: 5%;
     font-family: 'Raleway';
 }
+a{
+    text-decoration: none;
+    margin-top: 5%;
+    font-weight: bold;
+    
+}
 
 .header{
     display: flex;
@@ -177,9 +183,14 @@ body{
     align-items:center;
 }
 
+.fa-chart-line{
+    font-size: 1.5em;
+}
+
 /*ASIDE*/
 .aside{
     padding: 5%;
+    margin: 5% 0;
     background-color: #F2F2F2;
 }
 
@@ -233,8 +244,7 @@ body{
 
 /*Section hebergements*/
 .section{
-    margin: 5% 0;
-    padding: 5%;
+    margin: 5% 0  5% 0;
     background-color: white;
 }
 
