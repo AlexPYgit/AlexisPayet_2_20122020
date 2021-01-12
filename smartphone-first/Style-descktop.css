@@ -1,6 +1,11 @@
 /*Style Descktop*/
 
 @media screen and (min-width : 1000px){
+    
+    body{
+        padding:4%;
+    }
+
     /*Header*/
     .en-tête{
         display:flex;
@@ -53,13 +58,6 @@
         display: flex;
     }
 
-    /*ASIDE*/
-    .aside{
-        padding: 2%;
-        border-radius: 10px;
-        width: 25%;
-    }
-
     /*Filter */
     .Filter{
         display: flex;
@@ -74,6 +72,54 @@
     .FilterChoice{
         order: 1;
     }
+
+    /*Main Section*/
+    .main_section{
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+     /*ASIDE*/
+     .aside{
+        padding: 2%;
+        border-radius: 20px;
+        width: 25%;
+        order: 2;
+    }
+
+    .cards_populaires{
+    }
+    
+    .text_populaires h3{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 5%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .img_populaires{
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    }
+    
+/* Section hebergements*/
+    .section{
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        width: 55%;
+        margin-top: 0%;
+    }
+
+
+
 
     /*Footer*/
 

@@ -1,5 +1,17 @@
 /*Style pour Smartphone*/
 
+/*couleur stars*/
+.bleu{
+    color:#0065FC ;
+}
+.grey{
+    color:#F2F2F2 ;
+}
+
+.fas{
+    font-size: 0.85em;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -12,7 +24,7 @@ body{
 }
 
 .SiteHeader-title{
-    width: 80%;
+    width: 70%;
 }
 
 .en-tête{
@@ -180,42 +192,90 @@ body{
 .cards_populaires{
     display: flex;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 5px solid white;
     margin: 10%  0 10% 0;
-    height: 90%;
+    box-sizing: border-box;
+    height: 8em;
 }
 
 .img_populaires{
-    width: 40%;
-    border-radius: 10px 0 0 10px;
+    width: 45%;
+    border-radius: 20px 0 0 20px;
     background-position: center;
     background-size:  cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    border: 1px solid black;
-
 }
 
 .text_populaires{
     display: flex;
     justify-content: left;
-    flex-direction: column;
-    align-content: ;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 60%;
-    padding:0 5%;
-    border: 1px solid black;
+    padding: 5% 3% 0 5%;
+    font-size: 0.8em;
 }
 
 .text_populaires h3 {
-    border: 1px solid black;
+    height: auto;
+    margin: 0%;
 }
-.text_populaires p {
-    border: 1px solid black;
+.text_populaires p{
+    margin-top: -5%;
+    margin-bottom: 3%;
+}
+
+.star_populaires{
+    align-self:flex-end; 
+}
+
+/*Section hebergements*/
+.section{
+    margin: 5% 0;
+    padding: 5%;
+    background-color: white;
 }
 
 
+.cards_hebergements{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin: 10%  0 10% 0;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 7px -2px #7894A3;
+    height: 12em;
 }
+
+.img_hebergements{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    background-position: center;
+    background-size:  100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.text_hebergements{
+    flex-wrap: wrap;
+    height: 40%;
+    padding:3% 0 0 3%;
+}
+.text_hebergements h3 {
+    margin: 0%;
+}
+.text_hebergements p{
+    margin: 1% 0;
+}
+
+
+
+
 
 
 
